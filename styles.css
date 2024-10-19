@@ -1,0 +1,37 @@
+#mainBoxWrapper {
+    display: flex;
+    margin-top: 70px;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+    height: 100%; /* take the full height of the body */
+}
+
+#mainBox{
+    width: 200px;
+    padding: 10px;
+    border: 5px solid gray;
+    border-radius: 15px;
+}
+
+#mainBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    overflow: hidden;
+}
+
+#p1 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#p2{
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+}
